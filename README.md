@@ -22,13 +22,18 @@
   ---------------
 
   1. Fork project from GitHub. 
+  ![fork](./assets/images/fork.png)
+
+  
   2. Clone repository to local machine. 
   3. Run ```npm install``` on root directory to install dependencies.
+  ![install](./assets/images/install.png)
 
   ## Usage
   --------
 
   After installation, run ```node index.js```. After answering all the questions, file will be created on the ```./dist``` directory.
+  ![use](./assets/images/use.png)
 
   ## License
   ---------- 
