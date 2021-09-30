@@ -61,7 +61,7 @@ const questions = [
   {
     type: 'input',
     name: 'description',
-    message: 'Provide a description of the project (Required)',
+    message: 'Provide a description of the project.',
     validate: descriptionInput => {
       if (descriptionInput) {
         return true;
@@ -147,7 +147,6 @@ function writeToFile(fileName, data) {
         // return out of the function here to make sure the Promise doesn't accidentally execute the resolve() function as well
         return;
       }
-
       // if everything went well, resolve the Promise and send the successful data to the `.then()` method
       resolve({
         ok: true,
@@ -165,7 +164,6 @@ function init() {
 // Function call to initialize app
 init()
 .then(data => {
-  console.log(data);
   return generateMarkdown(data);
 })
 .then(markdown => {

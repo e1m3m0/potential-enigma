@@ -1,6 +1,5 @@
 # Readme GenPro
-  ------------------------
-
+  
   [GitHub Repo](https://github.com/e1m3m0/readme-gen-pro)
 
   ## Description
@@ -22,17 +21,16 @@
   ## Installation
   ---------------
 
-  1. Fork project from GitHub. 2. Clone repository to local machine. 3. Run ```shell npm install``` to install dependencies.
+  1. Fork project from GitHub. 2. Clone repository to local machine. 3. Run ```npm install``` to install dependencies.
 
   ## Usage
   --------
 
-  After installation, run ```shell node index.js```. After answering all the questions, file will be created on the ```./dist``` directory.
+  After installation, run ```node index.js```. After answering all the questions, file will be created on the ```./dist``` directory.
 
   ## License
   ---------- 
-    
-   
+      
   ![MIT](https://img.shields.io/badge/license-MIT-brightgreen)
 
   Copyright (c) 2021 by Guillermo Mateo. Licensed under the [MIT](https://choosealicense.com/licenses/mit)
@@ -53,7 +51,7 @@
   ## Test
   -------
   
-  Run ```shell npm test```
+  Run ```npm test```
 
   ## Questions
 
